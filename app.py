@@ -123,7 +123,7 @@ skplt.metrics.plot_confusion_matrix(
     label_test, 
     prediction,
     figsize=(8,8))
-
+st.set_option('deprecation.showPyplotGlobalUse', False)
 st.pyplot()
 
 def test_tweet_transformation(tweet):
